@@ -500,3 +500,4 @@ Irssi::signal_add('message dcc action', 'dcc');
 Irssi::signal_add('print text',         'print_text');
 Irssi::signal_add('setup changed',      'are_settings_valid');
 Irssi::signal_add('window changed',     'check_window_activity');
+Irssi::signal_add('message irc notice', 'public');
